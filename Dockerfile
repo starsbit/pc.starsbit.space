@@ -3,5 +3,5 @@
 # When the site grows, put its files under site/ ... for now everything web-facing is index.html.
 FROM nginxinc/nginx-unprivileged:1.29-alpine
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
-COPY index.html /usr/share/nginx/html/
+COPY index.html google68a785d1b6ad166e.html /usr/share/nginx/html/
 EXPOSE 8080
